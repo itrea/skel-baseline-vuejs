@@ -1,0 +1,34 @@
+{
+    "name": "skel-baseline-vuejs",
+    "version": "0.0.0",
+    "description": "skel-baseline and vue.js starting point",
+    "authors": [
+        "Itrea Server Powered"
+    ],
+    "license": "MIT",
+    "homepage": "index.html",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "devDependencies": {
+        "baseline": "skel-baseline#~3.0.0"
+    },
+    "install" : {
+        "path" : {
+            "css": "public/css",
+            "js": "public/js",
+            "scss": "app/sass",
+            "sass": "app/sass"
+        },
+        "sources" : {
+            "baseline" : [
+                "bower_components/baseline/assets/sass/**",
+                "bower_components/baseline/assets/js/**"
+            ]
+        }
+    }
+}
